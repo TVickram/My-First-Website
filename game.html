@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game - Vickram Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Header with navigation links -->
+        <h2 class="logo">Vickram</h2>
+        <nav class="navigation">
+            <a href="index.html">Home<span></span></a>
+            <a href="about.html">About<span></span></a>
+            <a href="game.html" class="active">Game<span></span></a>
+            <a href="skills.html">Skills<span></span></a>
+            <a href="contact.html">Contact<span></span></a>
+        </nav>
+    </header>
+
+    <section class="parallax">
+        <!-- Parallax section with images -->
+        <h2 id="text">My Game</h2>
+        <img src="assets/scroll/tree-left.png" id="tree-left" alt="Tree left">
+        <img src="assets/scroll/tree-right.png" id="tree-right" alt="Tree right">
+        <img src="assets/scroll/cloud-left.png" id="cloud-left" alt="Cloud left">
+        <img src="assets/scroll/cloud-right.png" id="cloud-right" alt="Cloud right">
+        <img src="assets/scroll/grass.png" id="grass" alt="Grass">
+    </section>
+
+    <section class="sec">
+        <!-- Details about game with controls -->
+        <h2>The 9 Lives Fox</h2>
+        <h3>The world's first game created fully by AI, developed by XLaunch</h3>
+        <p>
+            Rules: <br>
+            W / Spacebar : JUMP <br>
+            A / Left arrow: LEFT<br>
+            D / Right arrow: RIGHT<br>
+            CLICK ON THE GAME TO START PLAYING
+            <br><br>
+        </p>
+
+        <!-- Responsive game player container -->
+        <div class="game-container">
+            <iframe src="assets/game/" title="Mini Game Player"></iframe>
+        </div>
+    </section>
+
+    <script src="JavaScript/scroll.js"></script>
+</body>
+
+</html>

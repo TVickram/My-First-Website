@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Vickram Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Header with navigation links -->
+        <h2 class="logo">Vickram</h2>
+        <nav class="navigation">
+            <a href="index.html">Home<span></span></a>
+            <a href="about.html">About<span></span></a>
+            <a href="game.html">Game<span></span></a>
+            <a href="skills.html">Skills<span></span></a>
+            <a href="contact.html" class="active">Contact<span></span></a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact section with form -->
+        <section class="contact-section">
+            <h1>Contact Me</h1>
+            <form class="contact-form" id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Confirmation message displayed after form submission -->
+            <p id="confirmationMessage" style="display:none;">Thank you! Your details have been sent.</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer with social media links -->
+        <div class="social-media">
+            <a href="https://www.instagram.com/vickramzzz/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/vickram-work-807866281" target="_blank">LinkedIn</a>
+            <a href="https://t.me/Vickramzzz" target="_blank">Telegram</a>
+        </div>
+    </footer>
+    
+    <script src="JavaScript/scroll.js"></script>
+</body>
+</html>
